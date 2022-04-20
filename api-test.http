@@ -1,0 +1,31 @@
+###
+POST http://localhost:9000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "PIPIPOPO",
+    "image1": "https://cdn.shopify.com/s/files/1/0065/4432/6771/products/406fdd3cc9e49e28002ad8baef9185c8_1200x1200.jpg?v=1638459221",
+    "image2": "https://cdn.shopify.com/s/files/1/0065/4432/6771/products/8ac91981a5234910dc9876bb8cd47082_1200x1200.jpg?v=1638459221",
+    "price": 299.99,
+    "quantity": 20
+}
+
+###
+GET http://localhost:9000/api/products HTTP/1.1
+
+
+###
+
+GET http://localhost:9000/api/products/622fc04a4ebce4546e2c7297 HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/products/6230a9362e4bd857e3c5e871 HTTP/1.1
+Content-Type: application/json
+
+{
+    "quantity": 15
+}
+
+###
+DELETE http://localhost:9000/api/products/6239de081558711f45831490 HTTP/1.1
