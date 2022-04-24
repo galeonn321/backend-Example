@@ -83,11 +83,6 @@ export const LoginScreen = () => {
           </Col>
           <Col className="p-5 bg-dark" xs="4">
             <img
-              src="./assets/fidelioLogo_white.png"
-              alt="logo"
-              className="w-100"
-            />
-            <img
               src="./assets/Audio.png"
               alt="Headphones"
               className="w-100 mt-5"

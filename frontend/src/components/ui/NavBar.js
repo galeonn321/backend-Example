@@ -14,13 +14,6 @@ export const NavBar = () => {
   return (
     <Navbar color="dark" container dark expand="md" fixed="top">
       <Nav className="me-auto" navbar>
-        <Link to="/home" className="text-decoration-none">
-          <img
-            src="./assets/fidelioLogo_whiteTitle.png"
-            className="img-fluid w-25"
-            alt="Brand Logo"
-          ></img>
-        </Link>
       </Nav>
       <NavbarText>
         <Link to="cart" className="m-5">
